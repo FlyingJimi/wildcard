@@ -8,6 +8,7 @@ public class Writer2 extends Writer{
 	
 	public Writer2(Writer writer){
 		this.subWriter = writer;
+		System.out.println();
 	}
 	
 	public static Writer getWriter(){
